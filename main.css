@@ -1,0 +1,32 @@
+* {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: #1c1c1c;
+}
+
+h1,
+p,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #99b2dd;
+    text-align: center;
+    padding: 120px 0;
+}
+
+.header__h1, strong {
+    color: #f39b6d;
+    font-size: 4rem;
+}
+
+.header__h2 {
+    color: #f39b6d;
+    font-size: 2rem;
+}
+
+body {
+    background-color: #fff;
+    margin: 0;
+}
