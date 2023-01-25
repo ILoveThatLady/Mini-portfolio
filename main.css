@@ -1,3 +1,11 @@
+:root {
+    --pink-lavender: #cdb4dbff;
+    --orchid-pink: #ffc8ddff;
+    --nadeshiko-pink: #ffafccff;
+    --uranian-blue: #bde0feff;
+    --baby-blue-eyes: #a2d2ffff;
+}
+
 * {
     font-family: 'Barlow Semi Condensed', sans-serif;
     color: #1c1c1c;
@@ -10,23 +18,37 @@ a {
     padding: 0;
 }
 
+body {
+    background-color: var(--orchid-pink);
+    margin: 0;
+}
+
+.navbar  {
+    background-color: var(--pink-lavender);
+    text-align: right;
+}
+
+.navbar a {
+    text-decoration: none;
+    margin-right: 3.5rem;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: white;
+}
+
 .header {
-    background-color: #99b2dd;
+    background-color: var(--pink-lavender);
     text-align: center;
     padding: 120px 0;
 }
 
 .header__h1, strong {
-    color: #f39b6d;
-    font-size: 4rem;
+    color:white;
+    font-size: 6rem;
 }
 
 .header__h2 {
-    color: #f39b6d;
-    font-size: 2rem;
+    color: white;
+    font-size: 2.5rem;
 }
 
-body {
-    background-color: #fff;
-    margin: 0;
-}
