@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Emilio Ortiz">
     <meta name="description" content="Este sitio web es una practica para el suo de las tecnologias basicas para el desarrollo web frontend(HTML, CSS & JavaScript).">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;300;400;500;600;700;800&family=JetBrains+Mono:ital,wght@0,100;0,400;0,500;0,600;0,700;0,800;1,200&display=swap" rel="stylesheet">
     <title>About me OffWeb</title>
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="homeP">
         <h1 class="header__h1"><strong id="header__hi">Hi</strong>, I'm Emilio<strong id="header__dot">|</strong></h1>
         <h2 class="header__h2">A Frontend Developer</h2>
 
@@ -21,35 +21,38 @@
             Click me           
         </button>
     </header>
+    <div id="container">
 
-    <div class="aboutMe" id="aboutMe">
-        <div class="aboutMe__text">
-            <h3>About me</h3>
-            <p>I am a <strong>
-                self-taught programmer
-            </strong> focused mainly on <strong>frontend development.</strong> I have always been a fan of technology. From a very young age, I began to program on my own, learning from everything that can be found on the internet and books, and over time it became a <strong>
-                passion.
-            </strong> I like to work in a team, learn from others as well as help them. <br>
-            <strong>
-                Let’s build something amazing!
-            </strong></p>
+        <div class="aboutMe" id="aboutMe">
+            <div class="aboutMe__text">
+                <h3>About me</h3>
+                <p>I am a <strong>
+                    self-taught programmer
+                </strong> focused mainly on <strong>frontend development.</strong> I have always been a fan of technology. From a very young age, I began to program on my own, learning from everything that can be found on the internet and books, and over time it became a <strong>
+                    passion.
+                </strong> I like to work in a team, learn from others as well as help them. <br>
+                <strong>
+                    Let’s build something amazing!
+                </strong></p>
+            </div>
+            <div class="aboutMe__skills">
+                <h3>Languages I speak.</h3>
+                <ul class="languages">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>C++</li>
+                    <li>Python</li>
+                </ul>    
+            </div>
         </div>
-        <div class="aboutMe__skills">
-            <h3>Languages I speak.</h3>
-            <ul class="languages">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>C++</li>
-                <li>Python</li>
-            </ul>    
-        </div>
+
     </div>
+    
 
     <div class="footer">
 
     </div>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="../src/main.js"></script>
+    <script src="../src/index.js"></script>
 </body>
 </html>
