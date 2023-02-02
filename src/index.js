@@ -1,3 +1,7 @@
+window.onbeforeunload = () => {
+    window.scrollTo (0, 0);
+}
+
 const btnChange = document.querySelector('button');
 
 btnChange.addEventListener('click', () => {
