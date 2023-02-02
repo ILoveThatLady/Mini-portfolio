@@ -1,9 +1,8 @@
 :root {
-    --pink-lavender: #cdb4dbff;
-    --orchid-pink: #ffc8ddff;
-    --nadeshiko-pink: #ffafccff;
-    --uranian-blue: #bde0feff;
-    --baby-blue-eyes: #a2d2ffff;
+    --pink-lavender: #2B2D42;
+    --orchid-pink: #3f4261;
+    --nadeshiko-pink: #9966E7;
+    --uranian-blue: #2B2D42;
 }
 
 * {
@@ -71,6 +70,7 @@ body {
     font-size: 2.75rem;
     color: var(--nadeshiko-pink);
     text-decoration: solid;
+    margin-top: 30px;
 }
 
 .aboutMe__text p {
@@ -90,8 +90,8 @@ body {
     padding-bottom: 2rem;
 }
 
-.aboutMe__skills h4 {
-    margin-top: 44px;
+.aboutMe__skills h3 {
+    margin-top: 30px;
     margin-bottom: 0;
     font-size: 2.5rem;
     text-decoration: solid;
@@ -108,27 +108,13 @@ body {
     background-color: var(--nadeshiko-pink);
     font-size: 2rem;
     font-weight: 500; 
-    padding: 1rem 3rem 1rem 3rem;
+    padding: 1rem 3rem 1.35rem 3rem;
     border-style: none;
     border-radius: 50px;
     cursor: pointer;
     justify-content: left;
     position: sticky;
-    top: 80px;
-    
-}
-
-.btn div {
-    display:inline-flex;
-    height: 38.4px;
-}
-
-#btn__svg {
-    display: inline-flex;
-    height: 2rem;
-    position: relative;
-    top: 5px;
-    left: 9px;
+    top: 70px;
 }
 
 .btn {
