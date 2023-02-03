@@ -353,11 +353,13 @@ body {
   }
 
   .aboutMe p {
-    padding: 0 3rem 0 3rem;
+    padding: 0 3rem 3rem 3rem;
   }
 
   .aboutMe h3 {
     margin: 0 auto;
+    padding: 1rem 1rem 0 1rem;
+
   }
 
   .aboutMe__skills {
@@ -365,6 +367,11 @@ body {
     margin: 0px auto;
     margin-bottom: 3rem;
     width: 80%;
+    height: auto;
+  }
+
+  .aboutMe__skills h3 {
+    padding: 1rem 1rem 0 1rem;
   }
 
   .aboutMe__skills ul {
