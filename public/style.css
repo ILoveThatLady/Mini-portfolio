@@ -284,6 +284,58 @@ body {
      opacity: 0;
    }
 }
+
+@media (max-width: 1100px) {
+
+  .header {
+    padding-bottom: 2rem;
+  }
+
+  .aboutMe {
+    display: inline-block;
+    justify-content: center;
+    margin: 0;
+    padding-top: 0;
+  }
+
+  .aboutMe__text {
+    padding-top: 0;
+    display: block;
+    align-self: center;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+  }
+
+  .aboutMe p {
+    padding: 0 3rem 0 3rem;
+  }
+
+  .aboutMe h3 {
+    margin: 0 auto;
+  }
+
+  .aboutMe__skills {
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 3rem;
+  }
+
+  .aboutMe__skills ul {
+    margin: 0 auto;
+  }
+
+  .aboutMe__skills li {
+    margin-top: .7rem;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .header{
+    width: 100%;
+  }
+}
  
 
 
